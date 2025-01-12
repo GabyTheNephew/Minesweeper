@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: org.example.controller.DifficultySelectionControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.025 s <<< FAILURE! -- in org.example.controller.DifficultySelectionControllerTest
+org.example.controller.DifficultySelectionControllerTest.testCallbackCalledWithCorrectDifficulty -- Time elapsed: 2.625 s <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at javafx.stage.Window.<init>(Window.java:1455)
+	at javafx.stage.Stage.<init>(Stage.java:256)
+	at javafx.stage.Stage.<init>(Stage.java:244)
+	at org.example.view.DifficultySelectionView.show(DifficultySelectionView.java:14)
+	at org.example.controller.DifficultySelectionController.displayDifficultySelection(DifficultySelectionController.java:11)
+	at org.example.controller.DifficultySelectionControllerTest.testCallbackCalledWithCorrectDifficulty(DifficultySelectionControllerTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+Caused by: java.lang.IllegalStateException: This operation is permitted on the event thread only; currentThread = main
+	at com.sun.glass.ui.Application.checkEventThread(Application.java:447)
+	at com.sun.glass.ui.Screen.setEventHandler(Screen.java:367)
+	at com.sun.javafx.tk.quantum.QuantumToolkit.setScreenConfigurationListener(QuantumToolkit.java:743)
+	at javafx.stage.Screen.<clinit>(Screen.java:74)
+	... 9 more
+
