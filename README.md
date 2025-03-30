@@ -1,2 +1,3 @@
-# Minesweeper
-Minesweeper in Java.
+Minesweeper Classic is a digital reinterpretation of the timeless Windows XP game, combining the nostalgia of the original with modern software design principles. The game logic is implemented in Java, ensuring robust and efficient performance, while the user interface is developed using JavaFX, providing a clean and intuitive visual experience. The project adopts the MVC architecture, which neatly separates the application into Model, View, and Controller components, facilitating easier maintenance and future enhancements.
+
+This implementation faithfully mimics the classic Minesweeper gameplay, challenging players to uncover safe cells while strategically flagging potential mines. The UI is designed to be both responsive and visually appealing, making it accessible to both new players and seasoned fans of the original game. With careful attention to detail, the game offers smooth animations and clear visual cues, all while maintaining the simplicity and elegance that defined the Windows XP version of Minesweeper.
